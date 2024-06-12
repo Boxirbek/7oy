@@ -1,0 +1,65 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.task-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.task-category {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+button {
+  margin: 5px;
+}
+
+.ReactModal__Overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  width: 450px;
+  height: 300px;
+  position: relative;
+  inset: auto;
+  margin: auto;
+  justify-content: center;
+  display: block;
+  button{
+    width: 90px;
+    height: 35px;
+    margin-left: 40%;
+    margin-top: 100px;
+    background-color: rgb(240, 231, 231);
+    border: solid 1px black ;
+    border-radius: 10px;
+  }
+   button:hover{
+    background-color: rgb(137, 137, 213);
+   }
+  label{
+    margin-top: 20px;
+  }
+}
+.category{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 100px;
+
+  
+}

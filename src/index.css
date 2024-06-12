@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+    width: 90px;
+    height: 35px;
+    margin-left: 40%;
+    margin-top: 100px;
+    background-color: rgb(240, 231, 231);
+    border: solid 1px black ;
+    border-radius: 10px;
+  }
+   button:hover{
+    background-color: rgb(137, 137, 213);
+   }
